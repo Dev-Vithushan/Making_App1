@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+//import { AngularFirestore } from '@angular/fire/firestore'
 @Component({
   selector: 'app-profile',
   templateUrl: './profile.page.html',
@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfilePage implements OnInit {
 
-  constructor() { }
+  constructor() { 
+    //const posts = afs.doc(`users/${this.afs`})
+  }
 
   ngOnInit() {
   }
